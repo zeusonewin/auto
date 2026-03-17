@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rush Hour Game — Traffic Betting on CCTV Cameras Online</title>
-    <meta name="description" content="Rush Hour — casino with real CCTV cameras from Tokyo, London, Bangkok. AI counts traffic live. Over/Under bets, no RNG, win up to 18x. Play online 24/7. Traffic betting and car betting.">
-    <meta name="keywords" content="Rush Hour, Rush Hour game, Rush Hour casino, traffic betting, car betting, CCTV game, no RNG casino, casino with surveillance cameras, Rush Hour online, Rush Hour live, Rush Hour 2025, Rush Hour RTP, Rush Hour 18x, live casino, Aviator alternative, crash game, Tokyo London Bangkok cameras, 55 second round, Over Under betting, exact number 18x, cctv game, traffic stakes">
+    <title>Rush Hour by CCTV Game — real-world traffic prediction on CCTV cameras</title>
+    <meta name="description" content="Rush Hour by CCTV Game is a no-RNG game using real CCTV traffic. AI counts what crosses the zone in ~55 second rounds, and you predict the outcome for payouts up to 18x.">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Rush Hour CCTV">
     <meta name="theme-color" content="#06090f">
@@ -31,119 +30,273 @@
     <meta name="twitter:description" content="No RNG casino. Real cameras. AI counts traffic. Win up to 18x. Play 24/7.">
     <meta name="twitter:image" content="https://rush-hour-x.vercel.app/faviconl.avif">
     <meta name="twitter:image:alt" content="Rush Hour CCTV — live traffic betting">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Rush Hour CCTV",
+      "url": "https://rush-hour-x.vercel.app/index-en.html",
+      "inLanguage": "en-US",
+      "description": "Rush Hour by CCTV Game is a no-RNG game with real CCTV traffic, where AI counts what crosses the zone and players predict the outcome for potential 18x payouts.",
+      "potentialAction": {
+        "@type": "Action",
+        "name": "Play Rush Hour online",
+        "target": "https://one-vv6649.com/casino/list?open=register&sub1=avto"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Rush Hour?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rush Hour is an online casino game using real surveillance cameras from cities worldwide. AI counts traffic in the detection zone, and players bet: Under, Over, In range or Exact number. One round lasts about 55 seconds."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you win in Rush Hour?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To win in Rush Hour, choose one of four bet types. Exact number pays up to 18x, In range 2.25x, Over 3.60x and Under 3x."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Rush Hour results be manipulated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, Rush Hour results are determined by real street traffic from CCTV cameras. Each round is recorded, the process is automated and cannot be faked."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I play Rush Hour online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can play Rush Hour online 24/7. The Play buttons on the site lead to registration, where you can use the BAMP promo code when depositing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Rush Hour RTP?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rush Hour effective RTP ranges from 91.50% to 93.50%, depending on the selected bet type."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is Rush Hour different from Aviator and crash games?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rush Hour is a no-RNG casino game. Unlike Aviator and crash games, the result is driven by real traffic from CCTV cameras instead of an algorithm, making the game transparent and verifiable."
+          }
+        }
+      ]
+    }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
     <style>
         *, *::before, *::after { box-sizing: border-box; }
         :root {
-            --bg: #06090f;
-            --bg-card: #0c111b;
-            --border: rgba(16, 185, 129, 0.2);
-            --accent: #10b981;
-            --accent-dim: rgba(16, 185, 129, 0.15);
-            --live: #ef4444;
-            --text: #e2e8f0;
-            --text-muted: #94a3b8;
+            --bg: #020617;
+            --bg-card: #020617;
+            --border: rgba(148, 163, 184, 0.18);
+            --accent: #22c55e;
+            --accent-soft: rgba(34, 197, 94, 0.14);
+            --accent-strong: #16a34a;
+            --live: #f97316;
+            --text: #e5e7eb;
+            --text-muted: #9ca3af;
+            --text-soft: #6b7280;
             --font: 'Outfit', system-ui, -apple-system, sans-serif;
+            --radius-lg: 16px;
+            --radius-md: 10px;
         }
-        body { margin: 0; font-family: var(--font); background: var(--bg); color: var(--text); line-height: 1.65; overflow-x: hidden; }
-        .wrap { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        body {
+            margin: 0;
+            font-family: var(--font);
+            background: radial-gradient(circle at top, #020617 0%, #020617 42%, #020617 100%);
+            color: var(--text);
+            line-height: 1.7;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+        .wrap { max-width: 1180px; margin: 0 auto; padding: 0 20px; }
         .cctv-frame {
-            border: 2px solid var(--border);
-            border-radius: 8px;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
             position: relative;
-            box-shadow: 0 0 0 1px rgba(0,0,0,.5), inset 0 0 60px rgba(16,185,129,.03);
+            overflow: hidden;
+            background: radial-gradient(circle at top left, rgba(34,197,94,0.16), transparent 55%);
+            box-shadow: 0 24px 60px rgba(15,23,42,0.9);
         }
         .cctv-frame::before {
-            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
-            background: linear-gradient(90deg, transparent, var(--accent), transparent); opacity: .6;
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(15,23,42,0.1), rgba(34,197,94,0.08), rgba(15,23,42,0.6));
+            mix-blend-mode: soft-light;
+            pointer-events: none;
         }
         .live-badge {
             display: inline-flex; align-items: center; gap: 6px;
-            padding: 4px 12px; border-radius: 4px;
-            background: rgba(239,68,68,.12); border: 1px solid rgba(239,68,68,.4);
-            color: #f87171; font-size: 12px; font-weight: 700; letter-spacing: .05em;
+            padding: 4px 14px; border-radius: 999px;
+            background: rgba(249,115,22,0.08);
+            border: 1px solid rgba(249,115,22,0.45);
+            color: #fed7aa; font-size: 11px; font-weight: 700; letter-spacing: .16em;
+            text-transform: uppercase;
         }
-        .live-badge::before { content: ''; width: 6px; height: 6px; background: var(--live); border-radius: 50%; animation: blink 1.2s infinite; }
+        .live-badge::before { content: ''; width: 8px; height: 8px; background: var(--live); border-radius: 999px; box-shadow: 0 0 12px rgba(249,115,22,0.8); animation: blink 1.2s infinite; }
         @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.4} }
         .nav {
             position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-            background: rgba(6,9,15,.92); backdrop-filter: blur(12px);
-            border-bottom: 1px solid var(--border);
+            background: radial-gradient(circle at top, rgba(15,23,42,0.96), rgba(15,23,42,0.92));
+            backdrop-filter: blur(18px);
+            border-bottom: 1px solid rgba(15,23,42,0.9);
             padding: 12px 0;
         }
-        .nav-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px; }
         .logo { display: flex; align-items: center; gap: 10px; }
-        .logo img { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; }
-        .logo span { font-weight: 800; font-size: 1.2rem; }
+        .logo img { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 0 1px rgba(148,163,184,0.3); }
+        .logo span { font-weight: 800; font-size: 1.22rem; letter-spacing: 0.02em; }
         .logo span b { color: var(--accent); font-weight: 800; }
-        .nav-links { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-        .nav-links a { color: var(--text-muted); text-decoration: none; font-size: 14px; padding: 6px 12px; border-radius: 6px; transition: color .2s, background .2s; }
-        .nav-links a:hover { color: var(--accent); background: var(--accent-dim); }
+        .nav-links { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); text-decoration: none; font-size: 13px; padding: 7px 13px; border-radius: 999px; transition: color .2s, background .2s; }
+        .nav-links a:hover { color: #e5e7eb; background: rgba(15,23,42,0.9); }
         .btn-promo {
-            padding: 6px 12px; border-radius: 6px; font-weight: 700; font-family: monospace; font-size: 13px;
-            background: rgba(245,158,11,.15); border: 1px solid rgba(245,158,11,.4); color: #fbbf24; cursor: pointer;
+            padding: 6px 13px;
+            border-radius: 999px;
+            font-weight: 600;
+            font-family: monospace;
+            font-size: 12px;
+            background: rgba(15,23,42,0.9);
+            border: 1px solid rgba(148,163,184,0.45);
+            color: #e5e7eb;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .btn-promo:hover {
+            border-color: rgba(226,232,240,0.8);
+            background: rgba(15,23,42,1);
         }
         .btn-play {
-            display: inline-flex; align-items: center; gap: 8px; padding: 12px 24px; border-radius: 8px;
-            background: linear-gradient(135deg, #059669, #10b981); color: #fff; font-weight: 700; text-decoration: none;
-            border: none; cursor: pointer; transition: transform .2s, box-shadow .2s;
+            display: inline-flex; align-items: center; gap: 10px;
+            padding: 13px 26px;
+            border-radius: 999px;
+            background: linear-gradient(135deg, #22c55e, #16a34a);
+            color: #f9fafb;
+            font-weight: 700;
+            font-size: 14px;
+            text-decoration: none;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 18px 45px rgba(22,163,74,0.5);
+            transition: transform .18s ease-out, box-shadow .18s ease-out, filter .18s ease-out;
         }
-        .btn-play:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(16,185,129,.35); }
+        .btn-play::after {
+            content: '→';
+            font-size: 15px;
+        }
+        .btn-play:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 26px 70px rgba(22,163,74,0.75);
+            filter: brightness(1.04);
+        }
         .btn-ghost {
-            display: inline-flex; padding: 12px 24px; border-radius: 8px;
-            border: 1px solid var(--border); color: var(--text); text-decoration: none; font-weight: 600;
-            transition: background .2s, border-color .2s;
+            display: inline-flex;
+            padding: 12px 24px;
+            border-radius: 999px;
+            border: 1px solid rgba(148,163,184,0.35);
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 13px;
+            background: rgba(15,23,42,0.9);
+            transition: background .18s ease-out, border-color .18s ease-out, color .18s ease-out;
         }
-        .btn-ghost:hover { background: var(--accent-dim); border-color: var(--accent); }
-        section { padding: 48px 0; }
-        .hero { padding-top: 120px; padding-bottom: 64px; }
+        .btn-ghost:hover { background: rgba(15,23,42,1); border-color: rgba(226,232,240,0.7); color: #f9fafb; }
+        section { padding: 52px 0; }
+        .hero { padding-top: 124px; padding-bottom: 68px; }
         .hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
         @media (max-width: 900px) { .hero-grid { grid-template-columns: 1fr; } }
-        .hero h1 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; line-height: 1.2; margin: 0 0 16px; }
-        .hero h1 .g { color: var(--accent); }
-        .hero p { color: var(--text-muted); font-size: 1.1rem; margin: 0 0 24px; max-width: 520px; }
+        .hero h1 { font-size: clamp(2.2rem, 4.4vw, 3.2rem); font-weight: 800; line-height: 1.15; margin: 0 0 16px; letter-spacing: -0.03em; }
+        .hero h1 .g { color: var(--accent); text-shadow: 0 0 24px rgba(34,197,94,0.8); }
+        .hero p { color: var(--text-soft); font-size: 1.02rem; margin: 0 0 24px; max-width: 540px; }
         .hero-btns { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 16px; }
-        .hero-promo { font-size: 14px; color: var(--text-muted); }
-        .hero-promo .code { font-family: monospace; font-weight: 700; color: #fbbf24; }
-        .hero-preview { border-radius: 12px; overflow: hidden; background: var(--bg-card); }
+        .hero-promo { font-size: 13px; color: var(--text-muted); }
+        .hero-promo .code { font-family: monospace; font-weight: 700; color: var(--accent); background: rgba(15,23,42,0.9); padding: 2px 8px; border-radius: 999px; border: 1px solid rgba(34,197,94,0.5); }
+        .hero-preview { border-radius: var(--radius-lg); overflow: hidden; background: var(--bg-card); position: relative; }
         .hero-preview img { width: 100%; height: auto; display: block; }
         .hero-preview-caption {
-            padding: 12px 16px; background: linear-gradient(to top, rgba(0,0,0,.9), transparent);
+            padding: 12px 16px;
+            background: linear-gradient(to top, rgba(15,23,42,0.96), transparent);
             display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;
+            position: absolute;
+            left: 0; right: 0; bottom: 0;
         }
-        .hero-preview-caption strong { color: #f87171; }
-        .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 40px; }
+        .hero-preview-caption strong { color: #f97316; letter-spacing: 0.08em; font-size: 11px; text-transform: uppercase; }
+        .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 40px; }
         @media (max-width: 600px) { .stats { grid-template-columns: repeat(2, 1fr); } }
-        .stat { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; text-align: center; }
-        .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--accent); }
-        .stat-label { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
-        h2 { font-size: 1.75rem; font-weight: 800; margin: 0 0 24px; letter-spacing: -0.02em; }
-        h3 { letter-spacing: -0.01em; }
-        .section-sub { color: var(--text-muted); margin-bottom: 32px; max-width: 600px; }
-        .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
-        .card {
-            background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px;
-            padding: 24px; transition: border-color .2s, transform .2s;
+        .stat {
+            background: radial-gradient(circle at top, rgba(15,23,42,0.95), rgba(15,23,42,0.98));
+            border: 1px solid rgba(148,163,184,0.26);
+            border-radius: var(--radius-md);
+            padding: 18px;
+            text-align: center;
         }
-        .card:hover { border-color: var(--accent); transform: translateY(-4px); }
+        .stat-num { font-size: 1.4rem; font-weight: 700; color: var(--accent); letter-spacing: -0.02em; }
+        .stat-label { font-size: 11px; color: var(--text-muted); margin-top: 4px; text-transform: uppercase; letter-spacing: 0.14em; }
+        h2 { font-size: 1.72rem; font-weight: 800; margin: 0 0 22px; letter-spacing: -0.02em; }
+        h3 { letter-spacing: -0.01em; }
+        .section-sub { color: var(--text-soft); margin-bottom: 30px; max-width: 620px; }
+        .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+        .card {
+            background: radial-gradient(circle at top, rgba(15,23,42,0.92), rgba(15,23,42,0.98));
+            border: 1px solid rgba(31,41,55,0.95);
+            border-radius: var(--radius-md);
+            padding: 22px;
+            transition: border-color .18s ease-out, transform .18s ease-out, box-shadow .18s ease-out;
+        }
+        .card:hover {
+            border-color: rgba(148,163,184,0.65);
+            transform: translateY(-3px);
+            box-shadow: 0 18px 40px rgba(15,23,42,0.9);
+        }
         .card h3 { margin: 0 0 8px; font-size: 1.1rem; }
         .card p { margin: 0; font-size: 14px; color: var(--text-muted); }
         .bet-cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
         @media (max-width: 800px) { .bet-cards { grid-template-columns: repeat(2, 1fr); } }
-        .bet-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 24px; text-align: center; }
+        .bet-card {
+            background: radial-gradient(circle at top, rgba(15,23,42,0.92), rgba(15,23,42,0.98));
+            border: 1px solid rgba(31,41,55,0.95);
+            border-radius: var(--radius-md);
+            padding: 24px;
+            text-align: center;
+        }
         .bet-card .mult { font-size: 1.75rem; font-weight: 800; color: var(--accent); }
-        .faq-item { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; margin-bottom: 12px; overflow: hidden; }
-        .faq-item summary { padding: 18px 20px; font-weight: 700; cursor: pointer; list-style: none; }
+        .faq-item { background: radial-gradient(circle at top, rgba(15,23,42,0.92), rgba(15,23,42,0.98)); border: 1px solid rgba(31,41,55,0.95); border-radius: var(--radius-md); margin-bottom: 12px; overflow: hidden; }
+        .faq-item summary { padding: 18px 20px; font-weight: 600; cursor: pointer; list-style: none; }
         .faq-item summary::-webkit-details-marker { display: none; }
         .faq-item[open] summary { border-bottom: 1px solid var(--border); }
         .faq-item p { margin: 0; padding: 18px 20px; color: var(--text-muted); font-size: 15px; }
-        footer { border-top: 1px solid var(--border); padding: 40px 0 24px; margin-top: 48px; }
+        footer { border-top: 1px solid rgba(15,23,42,1); padding: 40px 0 24px; margin-top: 48px; }
         .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; margin-bottom: 32px; }
         .footer-grid h4 { font-size: 14px; color: var(--text-muted); margin: 0 0 12px; text-transform: uppercase; letter-spacing: .05em; }
-        .footer-grid a { color: var(--text-muted); text-decoration: none; font-size: 14px; display: block; margin-bottom: 6px; }
-        .footer-grid a:hover { color: var(--accent); }
+        .footer-grid a { color: var(--text-muted); text-decoration: none; font-size: 13px; display: block; margin-bottom: 6px; }
+        .footer-grid a:hover { color: #e5e7eb; }
         .footer-bottom { font-size: 13px; color: var(--text-muted); }
         .scroll-top { position: fixed; bottom: 24px; right: 24px; width: 48px; height: 48px; border-radius: 50%; background: var(--accent); color: #fff; border: none; cursor: pointer; opacity: 0; transition: opacity .3s; box-shadow: 0 4px 12px rgba(16,185,129,.4); }
         .scroll-top.visible { opacity: 1; }
@@ -174,8 +327,8 @@
             <div class="hero-grid">
                 <div>
                     <div class="live-badge" style="margin-bottom: 16px;">LIVE</div>
-                    <h1>Rush Hour — traffic betting on <span class="g">CCTV</span> cameras online</h1>
-                    <p>No RNG casino with real cameras from Tokyo, London, Bangkok. AI counts traffic live. Over/Under bets, win up to 18x. 55-second rounds.</p>
+                    <h1>Rush Hour — no-RNG casino with live traffic betting on <span class="g">CCTV</span> cameras</h1>
+                    <p>Rush Hour is an online no-RNG casino game with real cameras from Tokyo, London and Bangkok. AI counts traffic live while you bet on traffic and cars: Over/Under, in range or exact number with up to 18x win.</p>
                     <div class="hero-btns">
                         <a href="https://one-vv6649.com/casino/list?open=register&sub1=avto" class="btn-play">Play now</a>
                         <a href="#how" class="btn-ghost">How it works</a>
@@ -206,8 +359,8 @@
 
     <section id="how" style="background: var(--bg-card);">
         <div class="wrap">
-            <h2>How Rush Hour traffic betting on CCTV works</h2>
-            <p class="section-sub">Online casino with real cameras. AI counts traffic — no RNG. Every round is a unique live stream. Round length ~55 seconds.</p>
+            <h2>How to play Rush Hour: no-RNG traffic betting on CCTV cameras</h2>
+            <p class="section-sub">Rush Hour is an online casino and traffic betting game using real CCTV cameras. AI counts traffic with no RNG involved, every round is a unique live stream lasting about 55 seconds.</p>
             <div class="cards">
                 <div class="card">
                     <h3>Real CCTV streams</h3>
@@ -226,13 +379,23 @@
                     <p>Video plays live, AI counter updates. Results are instant.</p>
                 </div>
             </div>
+            <div style="margin-top:32px;">
+                <h3>Step-by-step: how a Rush Hour round works</h3>
+                <ol style="padding-left:18px; color: var(--text-muted); font-size:14px;">
+                    <li><strong>Round appears.</strong> A location and target number show on screen — how many objects might cross the zone.</li>
+                    <li><strong>Choose an outcome.</strong> You select one of four options: Under, Over, In range or Exact number.</li>
+                    <li><strong>Round starts.</strong> The CCTV stream plays and AI starts counting vehicles or pedestrians in the detection zone.</li>
+                    <li><strong>Result is locked.</strong> After ~55 seconds the counter stops and the final result is fixed.</li>
+                    <li><strong>Payout.</strong> If your prediction matches the outcome, you are paid according to the corresponding multiplier (up to 18x).</li>
+                </ol>
+            </div>
         </div>
     </section>
 
     <section id="betting">
         <div class="wrap">
-            <h2>Four ways to win in Rush Hour</h2>
-            <p class="section-sub">Traffic betting: Over/Under, in range or exact number. RTP 91–93%.</p>
+            <h2>Rush Hour traffic bets: Over/Under, in range and exact number</h2>
+            <p class="section-sub">Rush Hour offers live traffic betting: Over/Under, in range or exact number with odds up to 18x. Effective RTP is around 91–93%.</p>
             <div class="bet-cards">
                 <div class="bet-card"><div style="font-size:24px;margin-bottom:8px;">📉</div><h3 style="margin:0 0 4px;">Under</h3><p style="font-size:12px;color:var(--text-muted);margin:0;">~30%</p><div class="mult">3x</div></div>
                 <div class="bet-card"><div style="font-size:24px;margin-bottom:8px;">📊</div><h3 style="margin:0 0 4px;">In range</h3><p style="font-size:12px;color:var(--text-muted);margin:0;">~40%</p><div class="mult">2.25x</div></div>
@@ -244,19 +407,27 @@
 
     <section style="background: var(--bg-card);">
         <div class="wrap">
-            <h2>Rush Hour — fair play with audit</h2>
-            <p class="section-sub">Transparent results. Outcomes are determined by real traffic — verifiable and clear.</p>
+            <h2>Rush Hour — fair no-RNG casino game with real cameras and audit</h2>
+            <p class="section-sub">Rush Hour is a transparent casino game without a random number generator. Round outcomes are driven by real road traffic from CCTV cameras, and each round is logged for audit.</p>
             <div class="cards">
                 <div class="card"><h3>Real CCTV video</h3><p>Players watch genuine footage. Result = real road activity.</p></div>
                 <div class="card"><h3>Unpredictable</h3><p>Streams from different cities — every round is unique.</p></div>
                 <div class="card"><h3>Full audit trail</h3><p>Every round is logged. Cannot be faked.</p></div>
+            </div>
+            <div style="margin-top:32px;">
+                <h3>Who Rush Hour is for</h3>
+                <ul style="padding-left:18px; color: var(--text-muted); font-size:14px; margin:0;">
+                    <li><strong>Players</strong> looking for an alternative to traditional slots and crash games, with real traffic and live video.</li>
+                    <li><strong>Streamers</strong> who want highly visual content, clear round structure and strong chat reactions.</li>
+                    <li><strong>Platforms and casino operators</strong> that need a new real‑world content format with an audit trail and transparent mechanics.</li>
+                </ul>
             </div>
         </div>
     </section>
 
     <section id="faq">
         <div class="wrap">
-            <h2>FAQ — Rush Hour traffic betting</h2>
+            <h2>FAQ — Rush Hour game and live traffic betting</h2>
             <div class="faq-item">
                 <summary>What is Rush Hour?</summary>
                 <p>Rush Hour is an online casino game using real surveillance cameras from cities worldwide. AI counts traffic in the detection zone. Players bet: Under, Over, In range or Exact number. Round ~55 seconds.</p>
